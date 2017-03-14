@@ -1,4 +1,4 @@
-
+/*
 function Dog(name, breed, weight) {
     this.name = name;
     this.breed = breed;
@@ -116,7 +116,7 @@ var busja = {
 busja.say();
 console.log(busja.weight);
 
-/*
+
 
 function Robot(name, created, owner) {
     this.name = name;
@@ -200,3 +200,24 @@ var z =  x - y;
 console.log(z);
 
 */
+
+/*function () {
+    var kitty = "mau";
+})();
+console.log(kitty);
+*/
+function ka() {
+    var x = 99;
+    var y = "101";
+      if (x <= y){
+        return "tru";
+    }else{
+        return "fals";
+    }
+}
+console.log(ka());
+
+function bar(){
+    
+}
+console.log(typeof function bar());
